@@ -1,5 +1,6 @@
 ﻿using DesafioFundamentos.Models;
 
+
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -52,7 +53,7 @@ while (exibirMenu)
             break;
     }
 
-    Console.WriteLine("Pressione uma tecla para continuar");
+    Console.WriteLine("Pressione uma tecla para voltar ao menu");
     Console.ReadLine();
 }
 
